@@ -1,0 +1,59 @@
+variable "description" {
+  default = [
+    "staticRoute1",
+    "staticRoute2",
+    "staticRoute3",
+    "staticRoute4",
+    "staticRoute5",
+    "staticRoute6",
+    "staticRoute7",
+    "staticRoute8",
+    "staticRoute9",
+    "staticRoute10",
+    "staticRoute11",
+    "staticRoute12",
+    "staticRoute13",
+    "staticRoute14",
+    "staticRoute15",
+    "staticRoute16",
+    "staticRoute17",
+    "staticRoute18",
+    "staticRoute19",
+    "staticRoute20",
+    "staticRoute",
+    "staticRoute",
+    "staticRoute",
+    "staticRoute",
+    "staticRoute"
+  ]
+}
+
+variable "destination" {
+  default = [
+    "10.82.233.0/24",
+    "10.112.47.0/24",
+    "10.125.0.0/16",
+    "10.252.37.0/24",
+    "10.252.46.0/24",
+    "10.254.254.0/27",
+    "172.21.119.0/24",
+    "172.21.141.0/24",
+    "192.168.2.0/24",
+    "192.168.4.0/24",
+    "192.168.11.0/24",
+    "192.168.50.0/24",
+    "192.168.116.0/24",
+    "192.168.117.0/24",
+    "192.168.151.0/24",
+    "192.168.153.0/24",
+    "192.168.154.0/24",
+    "192.168.156.0/24",
+    "192.168.211.0/24",
+    "192.168.214.0/24",
+    "10.123.0.0/16",
+    "10.123.79.0/26",
+    "192.168.150.0/24",
+    "192.168.152.0/24",
+    "192.168.155.0/24"
+  ]
+}
